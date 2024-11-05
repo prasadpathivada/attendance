@@ -1,0 +1,46 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+background-color: bisque;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.home-container h1 {
+    color: #070707f2; /* Adjusted for better contrast */
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for readability */
+}
+
+.home-container a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.home-container button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
+    color: #0d0d0d;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-container button:hover {
+    background-color: rgba(0, 86, 179, 0.8); /* Darker hover effect */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+.home-container button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 86, 179, 0.8);
+}

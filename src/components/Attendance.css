@@ -1,0 +1,52 @@
+/* src/components/Attendance.css */
+.attendance-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.attendance-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.attendance-container select,
+.attendance-container input[type="date"],
+.attendance-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.attendance-container select {
+    background-color: #fff;
+}
+
+.attendance-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.attendance-container button:hover {
+    background-color: #0056b3;
+}
+
+.attendance-container p {
+    margin-top: 15px;
+    color: #28a745;
+}
+
+.attendance-container p.error {
+    color: #dc3545;
+}

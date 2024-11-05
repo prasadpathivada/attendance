@@ -1,0 +1,32 @@
+/* src/components/QRCodeScanner.css */
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.QrReader {
+    display: block;
+    margin: 30px auto;
+    max-width: 10%; /* Increase width for better camera view */
+    height: auto;
+    border: 5px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.location-error {
+    text-align: center;
+    color: #ff6347;
+    margin-top: 10px;
+    font-size: 1rem;
+}

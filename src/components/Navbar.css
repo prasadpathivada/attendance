@@ -1,0 +1,19 @@
+/* Navbar.css */
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: hwb(0 0% 99%);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
